@@ -1,0 +1,60 @@
+*{
+        font-family:Times New Roman;    }
+
+    h1,h2,h3,h4,h5,h6{
+        font-weight: 700;
+        color: white;
+    }
+
+    body{
+       background-color: black;
+    }
+
+    input{
+        width: 5%;
+        padding: 5px;
+        margin: 10px 0px;
+        border:1px solid white;
+    }
+
+    label {
+        font-size: 20px;
+        display: inherit;
+        margin: 5px 0px;
+        color: white;
+    }
+
+    p{
+            text-transform: capitalize;
+            color: white;
+    }
+
+    button{
+       
+        padding: 2px 25px;
+        border: 2px solid;
+        background: gray;
+        color: white;
+        font-weight: 700;
+        margin: 15px 0px;
+    }
+
+
+    .bg-text {
+      color:black;
+      font-weight: bold;
+      position: absolute;
+     
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 80%;
+      padding: 20px;
+      text-align: center;
+      background-color: black;
+    }
+    .body-color{
+        color: black;
+    }
+    
